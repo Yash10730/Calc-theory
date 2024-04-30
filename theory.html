@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <img src="cuimslogo.png" alt="cuims">
+        <!-- <img id="theory_img"scr="login-bg-new.jpg"alt="cuims_theory"> -->
+        <h1>Chandigarh University</h1>
+        
+        
+        <div id="theory">
+            <form class="calcTheoryMarks">
+                <div id="Mst" class="mstMarks"> 
+                    <input class="inputStyle" type="number" id="mst1" min="0" max="20" placeholder="Enter MST 1 Marks">
+                    <input class="inputStyle" type="number" id="mst2" min="0" max="20" placeholder="Enter MST 2 Marks">
+                </div>
+    
+                <div id="Quiz">  
+                    <input class="inputStyle" type="number" id="Qz" min="0" max="4" placeholder="Enter Quiz Marks">  
+                </div>
+    
+                <div id="Assignment"> 
+                    <input class="inputStyle" type="number" min="0" max="12" id="Assign" placeholder="Enter Assignment Marks">
+                </div>
+    
+                <div id="surprise"> 
+                    <input class="inputStyle" type="number" min="0" max="10" id="sur" placeholder="Enter Surprise Test Marks">
+                </div>
+    
+                <div id="Attendance"> 
+                    <input class="inputStyle" type="number" min="0" max="2" id="Attend" placeholder="Enter Your Attendance marks [0/2]">
+                </div>
+                <button id="t1" class="btn">Submit</button>
+            </form>
+
+            <div class="output"></div>
+        </div>
+        <footer><br>Developed By Yash & Jeet</br></footer>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
