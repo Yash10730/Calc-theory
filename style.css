@@ -306,16 +306,17 @@ p {
 
 p {
     font-family: 'georgia';
-    color: #64E3FF;
+    color: black;
 }
 
 .card__content h2 {
     font-family: 'Poppins';
     color: #ecf1f2e7;
 }
-footer{
-  color:#170F1E ;
-}
+/* footer{
+    font-family: 'georgia';
+    color: #64E3FF;
+} */
 
 .calcTheoryMarks{
     display: flex;
@@ -339,13 +340,14 @@ footer{
 #experiment{
     width: 100%;
 }
-footer{
-    background-color: red;
+footer p{
+    
     width: 100%;
     display: flex;
+    color: white;
     justify-content: center;
     font-weight: 600;
-   
+
 }
 a{
     display: flex;
